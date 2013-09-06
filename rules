@@ -2,3 +2,6 @@
 # -*- makefile -*-
 %:
 	dh $@ --sourcedirectory=src
+
+override_dh_auto_build:
+	dh_auto_build -- V=1
