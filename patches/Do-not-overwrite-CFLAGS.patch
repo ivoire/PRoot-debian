@@ -1,0 +1,14 @@
+Do not overwrite CFLAGS in order for the hardening to work.
+--- a/src/GNUmakefile
++++ b/src/GNUmakefile
+@@ -9,8 +9,8 @@
+ CC       = gcc
+ LD       = $(CC)
+ CPPFLAGS = -I. -I$(VPATH)
+-CFLAGS   = -Wall -Wextra -O2
+-LDFLAGS  = -ltalloc
++CFLAGS   += -Wall -Wextra -O2
++LDFLAGS  += -ltalloc
+ 
+ OBJECTS = cli.o			\
+ 	notice.o		\
