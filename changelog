@@ -1,0 +1,5 @@
+proot (3.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #701894)
+
+ -- Rémi Duraffort <ivoire@videolan.org>  Wed, 03 Jul 2013 11:13:33 +0200
