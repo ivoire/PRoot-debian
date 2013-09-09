@@ -1,2 +1,2 @@
 Install-proot-into-DESTDIR-usr-bin.patch
-Do-not-overwrite-CFLAGS.patch
+Do-not-overwrite-FLAGS.patch

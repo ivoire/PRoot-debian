@@ -1,12 +1,14 @@
-Do not overwrite CFLAGS in order for the hardening to work.
+Do not overwrite FLAGS in order for the hardening to work.
 --- a/src/GNUmakefile
 +++ b/src/GNUmakefile
-@@ -9,8 +9,8 @@
+@@ -8,9 +8,9 @@
+ INSTALL  = install
  CC       = gcc
  LD       = $(CC)
- CPPFLAGS = -I. -I$(VPATH)
+-CPPFLAGS = -I. -I$(VPATH)
 -CFLAGS   = -Wall -Wextra -O2
 -LDFLAGS  = -ltalloc
++CPPFLAGS += -I. -I$(VPATH)
 +CFLAGS   += -Wall -Wextra -O2
 +LDFLAGS  += -ltalloc
  
