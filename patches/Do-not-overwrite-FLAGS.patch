@@ -5,10 +5,10 @@ Do not overwrite FLAGS in order for the hardening to work.
  INSTALL  = install
  CC       = gcc
  LD       = $(CC)
--CPPFLAGS = -I. -I$(VPATH)
+-CPPFLAGS = -D_FILE_OFFSET_BITS=64 -I. -I$(VPATH)
 -CFLAGS   = -Wall -Wextra -O2
 -LDFLAGS  = -ltalloc
-+CPPFLAGS += -I. -I$(VPATH)
++CPPFLAGS += -D_FILE_OFFSET_BITS=64 -I. -I$(VPATH)
 +CFLAGS   += -Wall -Wextra -O2
 +LDFLAGS  += -ltalloc
  
