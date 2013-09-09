@@ -3,16 +3,7 @@ Upstream-Name: proot
 Source: http://proot.me
 
 Files: *
-Copyright: 2013, Cédric VINCENT <cedric.vincent@st.com>
-           2013, Rémi DURAFFORT <remi.duraffort@st.com>
-           2013, Yves JANIN <yves.janin@st.com>
-           2013, Claire ROBINE <claire.robine@st.com>
-           2013, Clément BAZIN <clement@bazin-fr.org>
-           2013, Christophe GUILLON <christophe.guillon@st.com>
-           2013, Christian BERTIN <christian.bertin@st.com>
-           2013, Denis FERRANTI <denis.ferranti@st.com>
-           2013, Paul GHALEB <paul.ghaleb@st.com>
-           2013, STMicroelectronics
+Copyright: 2013, STMicroelectronics
 License: GPL-2+
 
 Files: debian/*
