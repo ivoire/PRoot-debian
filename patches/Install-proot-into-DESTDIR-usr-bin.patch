@@ -1,8 +1,8 @@
 Install proot into $(DESTDIR)/usr/bin/
 --- a/src/GNUmakefile
 +++ b/src/GNUmakefile
-@@ -135,7 +135,7 @@
- 	-$(RM) -f $(CHECK_PROGRAMS) $(CHECK_OBJECTS) $(OBJECTS) proot $(DEPS) build.h
+@@ -136,7 +136,7 @@
+ 	-$(RM) -f $(CHECK_OBJECTS) $(CHECK_PROGRAMS) $(CHECK_RESULTS) $(OBJECTS) proot $(DEPS) build.h
  
  install: proot
 -	$($(quiet)INSTALL) -D $< $(DESTDIR)/$<
