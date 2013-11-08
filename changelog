@@ -1,11 +1,12 @@
-proot (3.1-1) UNRELEASED; urgency=low
+proot (3.2-1) unstable; urgency=low
 
+  * Upgrade to latest PRoot version
   * Fix copyright holders
   * Build with hardening
   * Print the full command line while building
   * Add a watch file
 
- -- Rémi Duraffort <ivoire@videolan.org>  Mon, 09 Sep 2013 14:32:19 +0200
+ -- Rémi Duraffort <ivoire@videolan.org>  Fri, 08 Nov 2013 13:41:20 +0200
 
 proot (3.0.2-1) unstable; urgency=low
 
