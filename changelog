@@ -1,3 +1,9 @@
+proot (3.2.1-1) unstable; urgency=low
+
+  * upgrade to latest PRoot version (Closes: #730363)
+
+ -- Rémi Duraffort <ivoire@videolan.org>  Mon, 25 Nov 2013 11:24:26 +0200
+
 proot (3.2-1) unstable; urgency=low
 
   * Upgrade to latest PRoot version
