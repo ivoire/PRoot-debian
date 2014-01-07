@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/cedric-vincent/PRoot.git
 Vcs-Browser: https://github.com/cedric-vincent/PRoot
 
 Package: proot
-Architecture: any
+Architecture: amd64 arm64 armel armhf i386 sh4 x32
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: emulate chroot, bind mount and binfmt_misc for non-root users
  PRoot is a user-space implementation of chroot, mount --bind,
