@@ -5,8 +5,8 @@ Maintainer: Rémi Duraffort <ivoire@videolan.org>
 Build-Depends: debhelper (>= 9.0.0), libtalloc-dev
 Standards-Version: 3.9.4
 Homepage: http://proot.me
-Vcs-Git: git://github.com/cedric-vincent/PRoot.git
-Vcs-Browser: https://github.com/cedric-vincent/PRoot
+Vcs-Git: git://github.com/ivoire/PRoot
+Vcs-Browser: https://github.com/ivoire/proot/tree/debian
 
 Package: proot
 Architecture: amd64 arm64 armel armhf i386 sh4 x32
