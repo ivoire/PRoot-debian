@@ -3,5 +3,7 @@
 %:
 	dh $@ --sourcedirectory=src
 
+# Force make to print the commands
+# By default V=0
 override_dh_auto_build:
 	dh_auto_build -- V=1
