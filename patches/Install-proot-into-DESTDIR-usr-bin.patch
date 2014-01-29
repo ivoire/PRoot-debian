@@ -1,4 +1,8 @@
-Install proot into $(DESTDIR)/usr/bin/
+Author: Rémi Duraffort <ivoire@videolan.org>
+Description: Install proot into $(DESTDIR)/usr/bin/
+Forwarded: not-needed
+Last-Update: 2014-01-29
+
 --- a/src/GNUmakefile
 +++ b/src/GNUmakefile
 @@ -175,13 +175,13 @@
