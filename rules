@@ -7,3 +7,8 @@
 # By default V=0
 override_dh_auto_build:
 	dh_auto_build -- V=1
+
+override_dh_installman:
+	mv doc/proot/man.1 doc/proot/proot.1
+	dh_installman
+	mv doc/proot/proot.1 doc/proot/man.1
