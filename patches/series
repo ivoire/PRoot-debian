@@ -1,1 +1,2 @@
 Install-proot-into-DESTDIR-usr-bin.patch
+Fix-man-syntax.diff

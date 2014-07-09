@@ -1,0 +1,13 @@
+Index: proot-4.0.0/doc/proot/man.1
+===================================================================
+--- proot-4.0.0.orig/doc/proot/man.1
++++ proot-4.0.0/doc/proot/man.1
+@@ -2,7 +2,7 @@
+ .
+ .TH PROOT 1 "2014-06-25" "4.0.0" ""
+ .SH NAME
+-PRoot \- chroot, mount --bind, and binfmt_misc without privilege/setup
++PRoot \- chroot, mount \-\-bind, and binfmt_misc without privilege/setup
+ .
+ .nr rst2man-indent-level 0
+ .
