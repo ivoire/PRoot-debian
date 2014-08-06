@@ -1,3 +1,10 @@
+proot (4.0.1-1) unstable; urgency=low
+  * Upgrade to latest PRoot version
+  * Fix issue with CWD (Closes: #756935)
+  * Fix lintian warning about the manpage
+
+ -- Rémi Duraffort <ivoire@videolan.org>  Wed, 06 Aug 2014 13:02:57 +0200
+
 proot (4.0.0-1) unstable; urgency=low
   * Upgrade to latest PRoot version
 
