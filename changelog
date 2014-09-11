@@ -1,7 +1,16 @@
+proot (4.0.2-1) unstable; urgency=low
+  * Upgrade to latest PRoot version
+    - Experimental port of PRoot for AArch64
+  * Silent one wrong litian warning
+    - proot binary: spelling-error-in-binary usr/bin/proot tEH the
+
+ -- Rémi Duraffort <ivoire@videolan.org>  Fri, 12 Sep 2014 09:59:21 +0200
+
 proot (4.0.1-1) unstable; urgency=low
   * Upgrade to latest PRoot version
-  * Fix issue with CWD (Closes: #756935)
-  * Fix lintian warning about the manpage
+    - Fix issue with CWD (Closes: #756935)
+  * debian/patches/Fix-man-syntax.diff: correct typographic mistakes in the
+    manpage
 
  -- Rémi Duraffort <ivoire@videolan.org>  Wed, 06 Aug 2014 13:02:57 +0200
 
