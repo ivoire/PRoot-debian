@@ -1,10 +1,13 @@
-Index: proot-4.0.0/doc/proot/man.1
-===================================================================
---- proot-4.0.0.orig/doc/proot/man.1
-+++ proot-4.0.0/doc/proot/man.1
+Author: Rémi Duraffort <ivoire@videolan.org>
+Description: Correct typographic mistakes in the manpage
+Forwarded: yes
+Last-Update: 2014-09-10
+
+--- a/doc/proot/man.1
++++ b/doc/proot/man.1
 @@ -2,7 +2,7 @@
  .
- .TH PROOT 1 "2014-08-05" "4.0.1" ""
+ .TH PROOT 1 "2014-09-02" "4.0.2" ""
  .SH NAME
 -PRoot \- chroot, mount --bind, and binfmt_misc without privilege/setup
 +PRoot \- chroot, mount \-\-bind, and binfmt_misc without privilege/setup
