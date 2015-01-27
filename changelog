@@ -1,3 +1,9 @@
+proot (5.1.0-1) unstable; urgency=low
+  * Upgrade to latest PRoot version
+    - PRoot is now embedding is own ELF interpreter
+
+ -- Rémi Duraffort <ivoire@videolan.org>  Tue, 27 Jan 2015 14:28:42 +0200
+
 proot (4.0.2-1) unstable; urgency=low
   * Upgrade to latest PRoot version
     - Experimental port of PRoot for AArch64
