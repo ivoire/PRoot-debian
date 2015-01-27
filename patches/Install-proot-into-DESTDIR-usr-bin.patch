@@ -1,12 +1,12 @@
 Author: Rémi Duraffort <ivoire@videolan.org>
 Description: Install proot into $(DESTDIR)/usr/bin/
 Forwarded: not-needed
-Last-Update: 2014-01-29
+Last-Update: 2015-01-27
 
 --- a/src/GNUmakefile
 +++ b/src/GNUmakefile
-@@ -175,13 +175,13 @@
- 	-$(RM) -f $(CHECK_OBJECTS) $(CHECK_PROGRAMS) $(CHECK_RESULTS) $(OBJECTS) $(CARE_OBJECTS) proot care cli/care-manual.o $(DEPS) build.h licenses
+@@ -230,13 +230,13 @@
+ 	-$(RM) -f $(CHECK_OBJECTS) $(CHECK_PROGRAMS) $(CHECK_RESULTS) $(OBJECTS) $(CARE_OBJECTS) $(LOADER_OBJECTS) $(LOADER-m32_OBJECTS) proot care loader/loader loader/loader-m32 cli/care-manual.o $(DEPS) build.h licenses
  
  install: proot
 -	$($(quiet)INSTALL) -D $< $(DESTDIR)/$<

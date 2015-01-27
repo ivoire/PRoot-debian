@@ -1,13 +1,15 @@
 Author: Rémi Duraffort <ivoire@videolan.org>
 Description: Correct typographic mistakes in the manpage
 Forwarded: yes
-Last-Update: 2014-09-10
+Last-Update: 2015-01-27
 
---- a/doc/proot/man.1
-+++ b/doc/proot/man.1
+Index: proot-5.1.0/doc/proot/man.1
+===================================================================
+--- proot-5.1.0.orig/doc/proot/man.1
++++ proot-5.1.0/doc/proot/man.1
 @@ -2,7 +2,7 @@
  .
- .TH PROOT 1 "2014-09-02" "4.0.2" ""
+ .TH PROOT 1 "2014-12-12" "5.1.0" ""
  .SH NAME
 -PRoot \- chroot, mount --bind, and binfmt_misc without privilege/setup
 +PRoot \- chroot, mount \-\-bind, and binfmt_misc without privilege/setup
